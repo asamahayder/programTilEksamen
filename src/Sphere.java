@@ -5,6 +5,11 @@ public class Sphere {
         this.radius = radius;
     }
 
+    public double omkreds(){
+        double omkreds = 2*radius*Math.PI;
+        return omkreds;
+    }
+
     public double rumfang(){
         double rumfang = (4.0/3.0)*Math.PI*Math.pow(radius,3);
         return rumfang;
