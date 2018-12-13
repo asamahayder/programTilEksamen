@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        Sphere sphere = new Sphere(3);
+        Sphere sphere = new Sphere(5);
 
-        System.out.println(sphere.rumfang());
+        System.out.println("rumfanget: " + sphere.rumfang());
+
+        System.out.println("overfladearealet: " + sphere.overfladeareal());
 
     }
 }
