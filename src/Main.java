@@ -5,7 +5,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("vælg en radius");
+        System.out.println("vælg kuglens radius");
 
         double radius = scan.nextDouble();
 
